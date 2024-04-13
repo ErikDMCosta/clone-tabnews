@@ -1,5 +1,5 @@
 // /api/v1/status
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 async function status(request, response) {
   // SEM FORMATO
